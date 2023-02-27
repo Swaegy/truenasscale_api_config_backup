@@ -7,7 +7,7 @@ import json
 KEY="API Key"
 HOST="*FQDN or IP of Host u want to Backup*"
 PATHCONFIG="*Path were the backupfiles should be stored*"
-DATE='date +%Y%m%d'
+DATE=`date +%Y%m%d`
 OPTIONS='{"secretseed":true,"root_authorized_keys":true}'
 
 # make the api request for config as xml and alias as json
