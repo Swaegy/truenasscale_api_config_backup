@@ -2,8 +2,8 @@
 
 # set variables for webcalls
 KEY="API Key"
-HOST="*FQDN or IP of Host u want to Backup*"
-PATHCONFIG="*Path were the backupfiles should be stored*"
+HOST="FQDN or IP of Host u want to Backup"
+PATHCONFIG="Path were the backupfiles should be stored"
 DATE=$(date +%Y%m%d)
 OPTIONS='{"secretseed":true,"root_authorized_keys":true}'
 
