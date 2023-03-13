@@ -11,4 +11,4 @@ OPTIONS='{"secretseed":true,"root_authorized_keys":true}'
 curl -X POST -H "Content-Type: application/json" -d "$OPTIONS" -H "Authorization: Bearer ${KEY}" "https://${HOST}/api/v2.0/config/save" -o "$PATHCONFIG"/truenasscale/nas-config-"${DATE}".tar
 
 # check the backup destination for backups older then 14 days, if older delete the backup
-find "$PATHCONFIG" -type f -name nas-config-\*.tar -mtime +14 -delete
+find "$PATHCONFIG" -type f -name "$host"-config-\*.tar -mtime +14 -delete
