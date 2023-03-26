@@ -11,7 +11,7 @@ A Remote system for running the script and saving the output.
 
 You only need to create a API Key.
 It's hidden in the top right of your TrueNAS Scale WebUI under the User Icon.
-The Name for the API Key doesn't matter, but should be recognisable for the futur.
+The Name for the API Key doesn't matter, but should be recognisable for the future.
     
 ## Example Config Debian
 Install the dependencies for debian to run the script
