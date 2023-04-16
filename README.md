@@ -29,7 +29,7 @@ Execute the script through crontab, in the example at 1 in the morning
     0 1 * * * /*pathtobackupscript*/truenasscale-backup.sh
 
 ## Sources
-https://github.com/curl/curl
+https://github.com/curl/curl <br />
 https://www.truenas.com/docs/scale/api/
 
 *You access the documentation for the TrueNAS API over the WebUI of your Truenas system*
