@@ -27,8 +27,7 @@ Execute the script through crontab, in the example at 1 in the morning
 
 ## Sources
 https://github.com/curl/curl <br />
-https://www.truenas.com/docs/scale/api/
-
+https://www.truenas.com/docs/scale/api/ <br />
 *You access the documentation for the TrueNAS API over the WebUI of your Truenas system*<br /><br />
 
 ## License
