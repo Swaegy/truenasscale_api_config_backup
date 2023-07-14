@@ -1,17 +1,17 @@
 # TrueNAS Scale API Backup
 
-A bash script used to access the TrueNAS Scale API remotely to backup the configuration.
+A bash script used to access the TrueNAS Scale API remotely to backup the configuration.<br /><br />
 
 ## Requirements
 
 A Remote system for running the script and saving the output. <br />
-(Iam using Debian for example, curl needs to be installed) 
+(Iam using Debian for example, curl needs to be installed) <br /><br />
 
 ## Setup TrueNAS Scale
 
 You only need to create a API Key. <br />
 It's hidden in the top right of your TrueNAS Scale WebUI under the User Icon. <br />
-The Name for the API Key doesn't matter, but should be recognisable for the future. <br />
+The Name for the API Key doesn't matter, but should be recognisable for the future. <br /><br />
     
 ## Example Config Debian
 Install the dependencies for debian to run the script
@@ -32,17 +32,17 @@ Execute the script through crontab, in the example at 1 in the morning
 https://github.com/curl/curl <br />
 https://www.truenas.com/docs/scale/api/
 
-*You access the documentation for the TrueNAS API over the WebUI of your Truenas system*
+*You access the documentation for the TrueNAS API over the WebUI of your Truenas system*<br /><br />
 
 ## License
 
 This repository is licensed under the GNU General Public License v3.0. <br />
-For more information, see the LICENSE file.
+For more information, see the LICENSE file.<br /><br />
 
 ## Disclaimer
 
 This repository is for educational and informational purposes only. <br />
-The author assumes no liability for any damages that may arise from the use of the contents of this repository.
+The author assumes no liability for any damages that may arise from the use of the contents of this repository.<br /><br />
 
 ## Contributions
 
