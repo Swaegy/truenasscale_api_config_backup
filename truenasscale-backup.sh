@@ -1,10 +1,15 @@
 #!/bin/bash
 
-# set variables for webcalls
-KEY="API Key"
-HOST="FQDN or IP of Host u want to Backup"
-PATHCONFIG="Path were the backupfiles should be stored"
+# API Key
+KEY=""
+# FQDN or IP for TrueNas Host
+HOST=""
+# Path to where the Export should be saved to
+PATHCONFIG=""
+
+# Variable to Add to Name for unique naming for daily export
 DATE=$(date +%Y%m%d)
+# Curl request Options for exporting the zfs keys needed for restoring the pools
 OPTIONS='{"secretseed":true,"root_authorized_keys":true}'
 
 # make the api request for config as xml and alias as json
