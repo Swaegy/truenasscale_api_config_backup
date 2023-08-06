@@ -6,9 +6,8 @@ A Remote system for running the script and saving the output. <br />
 (Iam using Debian for example, curl needs to be installed) <br /><br />
 
 ## Setup TrueNAS Scale
-You only need to create a API Key. <br />
-It's hidden in the top right of your TrueNAS Scale WebUI under the User Icon. <br />
-The Name for the API Key doesn't matter, but should be recognisable for the future. <br /><br />
+You only need to create a API Key. <br /> (small how-to --> https://github.com/ARC-XX/truenasscale_api_config_backup/wiki/Create-TrueNAS-API-Key) <br /><br />
+
     
 ## Example Config Debian
 Install the dependencies for debian to run the script
